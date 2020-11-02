@@ -12,4 +12,4 @@ The `javafx8-minesweeper.tar.gz` tarball contains all the necessary source files
 
 To build the project and create the executable jar all in one step, type `make` at the command line, which invokes the default `make` target; it first compiles the necessary source files, then creates a `MANIFEST.MF` file, and then combines the produced `.class` files and the existing `.html` and `.gif`/`.png` files that were in the tarball, and creates the `.jar` executable. The executable jar is called `javafx8-minesweeper.jar`, and can be run with `java -jar javafx8-minesweeper.jar`.
 
-The `Makefile` contains other `make` targets with which one may experiment as they wish.
+The `Makefile` contains other `make` targets with which you may experiment as you wish.
